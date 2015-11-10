@@ -1,0 +1,18 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+/**
+ * default font-family.
+ */
+
+html {
+    font-family: $font-stack;
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+    margin: 0;
+}
