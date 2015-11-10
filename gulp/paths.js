@@ -8,6 +8,12 @@ module.exports = {
     watch: [_src + 'scss/**/*.{scss,sass}'],
     src: _src + 'scss/**/*.{scss,sass}',
     dest: _dest + 'css'
+  },
+
+  html: {
+    watch: [_src + 'html/**/*.html'],
+    src: _src + 'html/**/*.html',
+    dest: _dest + 'html'
   }
 
 };
