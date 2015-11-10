@@ -1,5 +1,6 @@
 $font-stack:    Helvetica, sans-serif;
-$primary-color: #833;
+$bg-color: #3C948B;
+$primary-color: lighten($bg-color, 50%);
 
 /**
  * default font-family.
@@ -7,6 +8,8 @@ $primary-color: #833;
 
 html {
     font-family: $font-stack;
+    background-color: $bg-color;
+    color: $primary-color;
 }
 
 /**

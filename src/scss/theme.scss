@@ -1,5 +1,7 @@
 @import "includeme";
+@import "headings";
 
-body {
-  color: $primary-color;
+// Then call it with the rules/styles you want wherever you want (As long as the file/include has access to the above function of course).
+th, #{headings(1,6)} {
+  color: white;
 }

@@ -93,7 +93,7 @@ gulp.task('serve', ['sass', 'html'], function() {
     });
 
     gulp.watch(paths.sass.watch, ['sass']);
-//    gulp.watch(path.html.watch).on('change', browserSync.reload);
+//    gulp.watch(paths.html.watch).on('change', browserSync.reload);
     gulp.watch(paths.html.watch, ['html']);
 });
 

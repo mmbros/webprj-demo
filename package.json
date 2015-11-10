@@ -18,5 +18,10 @@
     "gulp-sass": "^2.1.0",
     "gulp-sourcemaps": "^1.6.0",
     "require-dir": "^0.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmbros/webprj-demo.git"
+  },
+  "homepage": "https://github.com/mmbros/webprj-demo"
 }
