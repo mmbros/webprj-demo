@@ -1,0 +1,57 @@
+@import 'demo-susy-grid-theme';
+@import 'clearfix';
+
+// NON FUNZIONA @import '../bower_components/breakpoint-sass/stylesheets/breakpoint';
+//@import '../bower_components/compass-breakpoint/stylesheets/breakpoint';
+//@import '../bower_components/sass-toolkit/stylesheets/toolkit';
+@import '../../../bower_components/susy/sass/susy';
+
+.container {
+
+  // This is the default clearfix from Compass. You can opt to use other clearfix methods
+  @include clearfix;
+//  @include container;  // couse a segmentation fault !!!
+}
+
+.ag1 {
+  @include span(2 of 10);
+}
+
+.ag2 {
+  @include span(6 of 10);
+  @include clearfix;
+}
+
+.ag3 {
+  @include span(2 of 10 last);
+}
+
+.ag4 {
+  @include span(3 of 6);
+}
+
+.ag5 {
+  @include span(3 of 6 last);
+}
+
+.ag6 {
+  @include span(2 of 6);
+}
+
+.ag7 {
+  @include span(4 of 6 last);
+  @include clearfix;
+}
+.ag8 {
+  @include span(2 of 4);
+}
+
+.ag9 {
+  @include span(2 of 4 last);
+}
+
+.ag10 {
+  clear: both;
+  // Alternatively, you can now use the span mixin with the full keyword to tell Susy this should be a 100% width
+  // @include span(full);
+}

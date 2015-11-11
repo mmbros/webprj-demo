@@ -2,6 +2,7 @@
  * https://github.com/google/web-starter-kit/blob/master/gulpfile.babel.js
  * https://gist.github.com/DESIGNfromWITHIN/11383339#file-gulpfile-js
  * http://www.zell-weekeat.com/gulp-tutorial-2/
+ * https://gist.github.com/austinpray/494b0b97c5b5e24f35eb
  */
 
 var gulp = require('gulp');
