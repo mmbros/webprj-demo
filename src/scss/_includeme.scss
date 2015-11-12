@@ -1,7 +1,12 @@
+@import "colors";
+
 $font-stack:    Helvetica, sans-serif;
-//$bg-color: #3C948B;
-$bg-color: #c31;
-$primary-color: lighten($bg-color, 50%);
+
+$bg-color: $color-primary-0;
+$fg-color: $color-primary-1;
+
+
+
 
 /**
  * default font-family.
@@ -10,7 +15,7 @@ $primary-color: lighten($bg-color, 50%);
 html {
     font-family: $font-stack;
     background-color: $bg-color;
-    color: $primary-color;
+    color: $fg-color;
 }
 
 /**
